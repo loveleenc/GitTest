@@ -1,0 +1,28 @@
+1. Controlling the appearance of your html page?: Use the style tag. It goes within the head tags. You can set properties of various elements by setting them within the style element. 
+2. How to add your styles to a separate file instead of in the html code?: Create a .css file. Add whatever goes within the <style> element into this file. Add a link to this file within the head element. 
+3. Get the website on desktop and mobile to look the same: Use the meta attribute with the name viewport within the head element.
+4. What is the div element used for: <div></div> is used to divide the webpage into sections, similar to main, section, etc, but mainly for styling purposes. Add it inside body
+5. What other properties can you set in css: background-color, width, text-align, etc. Width can be set in pixels (px), or as a percentage of it's parent tag. 
+6. How to center your element horizontally on the webpage: Use the margin-left and margin-right properties in styles. Set both to auto.
+7. What are type selectors and class selectors: type selector is used to select an element in your css document by mentioning its name. E.g. h1, h2, p, etc. Class selectors work like attributes which you can assign to elements, and whatever properties have been set for a particular class selector will apply to those elements. 
+8. Set the background as an image: Use background-image property in css. 
+9. article elements commonly contain multiple elements that have related information.
+10. <p> paragraph elements take up the whole width of their parent element. How to display two of them on the same line: Use the display property set to inline-block.
+11. Give your parent element some margin on the sides to make it look slightly bigger: use padding-left, padding-right, top, bottom and set the property using pixel values. Or add 'padding' property in case it is needed for all 4 sides.
+12. What if width of parent tag is too wide and the width of the child tag is set as its percentage: Set a max-width value. 
+13. Set a particular font: Use font-family property
+14. How to set an alternate font (called fallback value) (in case the set font is not available): add the font after the first one, separate it by a comma
+15. How to set a font style (E.g. italic) and font size: Set property called font-style, and font-size (in pixels)
+16. Add a dividing line between 2 elements: use the self-closing <hr> tag. Default look: light, grey line, 1px border-width
+17. Some elements have a border to them. E.g. <hr> How to make the border invisible: Set the 'border-color' property same as its background-color property.
+18. Reduce the gaps between <p> elements that are on different lines? Use the margin-top and margin-bottom properties.
+19. Set link colors to not change: Use the 'color' property for the anchor elements. 
+20. To set different colors when a link is visited/hovered over/when clicked on: Use a pseudo selector. visited- visited, hovered over - hover, clicked on- active
+21. Images are inline elements. How to set it up to be at the center: It needs three things. 
+    a. To start on a new line. 
+    b. To take up the width of parent tag
+    c. To be in the center. 
+
+    for a and b, you can use the 'display' property set to block
+    for c, set margin-left and margin-right to auto
+22. How to reduce margin of an element at the top without modifying its properties: Set a negative margin-top value for the element below it. 
